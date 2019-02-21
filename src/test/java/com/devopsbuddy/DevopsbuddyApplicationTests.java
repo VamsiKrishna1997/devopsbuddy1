@@ -22,6 +22,7 @@ public class DevopsbuddyApplicationTests {
         String actual = i18NService.getMessage(messageId);
         Assert.assertEquals("The Actual and expected strings dont match", expectedResult, actual);
 
+
     }
 
 }
