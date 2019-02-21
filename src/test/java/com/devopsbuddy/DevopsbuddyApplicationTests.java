@@ -11,6 +11,7 @@ public class DevopsbuddyApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }
