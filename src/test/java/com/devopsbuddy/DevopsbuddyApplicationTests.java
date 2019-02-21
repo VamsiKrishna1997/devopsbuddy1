@@ -12,16 +12,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DevopsbuddyApplicationTests {
 
-
     @Autowired
     private I18NService i18NService;
 
     @Test
-    public void testMessageByLocaleService() throws Exception{
+    public void testMessageByLocaleService() throws Exception {
         String expectedResult = "Bootstrap starter template";
         String messageId = "index.main.callout";
         String actual = i18NService.getMessage(messageId);
-        Assert.assertEquals("The Actual and expected strings dont match",expectedResult,actual);
+        Assert.assertEquals("The Actual and expected strings dont match", expectedResult, actual);
+
     }
 
 }
